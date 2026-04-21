@@ -27,8 +27,10 @@ public class TotemMixin {
         if (entity == client.player) return;
         if (!(entity instanceof PlayerEntity)) return;
 
-        ComboTracker.INSTANCE.onTotem();
-        int level = ComboTracker.INSTANCE.getCurrentLevel();
-        AudioManager.playComboSound(level);
+        client.execute(() -> {
+            ComboTracker.INSTANCE.onTotem();
+            int level = ComboTracker.INSTANCE.getCurrentLevel();
+            AudioManager.playComboSound(level);
+        });
     }
 }
