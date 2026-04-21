@@ -6,7 +6,6 @@
   "description": "LoL-style kill streak sounds for totem activations",
   "authors": ["Emin"],
   "license": "MIT",
-  "icon": "assets/totemkillstreak/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": ["com.emin.totemkillstreak.TotemKillStreakMod"],

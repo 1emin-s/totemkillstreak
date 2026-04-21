@@ -10,6 +10,8 @@ import net.minecraft.sound.SoundEvent;
 public class AudioManager {
 
     public static void playComboSound(int level) {
+        if (level <= 0) return;
+
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.world == null) return;
 
