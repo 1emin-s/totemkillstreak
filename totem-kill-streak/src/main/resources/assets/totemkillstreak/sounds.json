@@ -1,0 +1,42 @@
+{
+	"totemkillstreak.combo.1": {
+		"sounds": [
+			{
+				"name": "totemkillstreak:combo/combo_1",
+				"volume": 1.0
+			}
+		]
+	},
+	"totemkillstreak.combo.2": {
+		"sounds": [
+			{
+				"name": "totemkillstreak:combo/combo_2",
+				"volume": 1.0
+			}
+		]
+	},
+	"totemkillstreak.combo.3": {
+		"sounds": [
+			{
+				"name": "totemkillstreak:combo/combo_3",
+				"volume": 1.0
+			}
+		]
+	},
+	"totemkillstreak.combo.4": {
+		"sounds": [
+			{
+				"name": "totemkillstreak:combo/combo_4",
+				"volume": 1.0
+			}
+		]
+	},
+	"totemkillstreak.combo.5": {
+		"sounds": [
+			{
+				"name": "totemkillstreak:combo/combo_5",
+				"volume": 1.0
+			}
+		]
+	}
+}

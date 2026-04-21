@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "totemkillstreak",
+	"version": "${version}",
+	"name": "Totem Kill Streak",
+	"description": "LoL-style kill streak sounds for totem activations",
+	"authors": [
+		"Emin"
+	],
+	"contact": {
+		"website": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/totemkillstreak/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.emin.totemkillstreak.TotemKillStreakMod"
+		],
+		"client": [
+			"com.emin.totemkillstreak.client.TotemKillStreakClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"fabric-api": "*",
+		"minecraft": "1.21.1"
+	}
+}
