@@ -8,8 +8,7 @@
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
-    "main": ["com.emin.totemkillstreak.TotemKillStreakMod"],
-    "client": ["com.emin.totemkillstreak.client.TotemKillStreakClient"]
+    "main": ["com.emin.totemkillstreak.TotemKillStreakMod"]
   },
   "mixins": [
     "totemkillstreak.mixins.json"
