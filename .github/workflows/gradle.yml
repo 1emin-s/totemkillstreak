@@ -25,7 +25,9 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Build with Gradle
+      # Klasörün içine girip komutu orada çalıştırıyoruz
       run: |
+        cd totem-kill-streak
         chmod +x gradlew
         ./gradlew build
 
@@ -33,5 +35,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Fabric-Mod-Dosyasi
-        path: build/libs/*.jar
-        
+        path: totem-kill-streak/build/libs/*.jar
