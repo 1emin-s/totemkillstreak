@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Gradle wrapper (oluşturulan, commit edilmiyor)
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Fabric / Loom
+run/
+remappedSrc/
+
+# Logs
+*.log
